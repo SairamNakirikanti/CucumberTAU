@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.tau.runners.RunCucumbeTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.tau.runners.RunCucumbeTests
+initializationError(com.tau.runners.RunCucumbeTests)  Time elapsed: 0 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+java.util.regex.PatternSyntaxException: Illegal repetition near index 13
+I enter valid {string} and {string}
+             ^
+Caused by: java.util.regex.PatternSyntaxException: 
+Illegal repetition near index 13
+I enter valid {string} and {string}
+             ^
+
